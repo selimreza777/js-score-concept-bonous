@@ -11,10 +11,18 @@
 
 // product name ekta object declear korchi 
 // const products = [15, 56, 87];
-const products = {
-  '0': 15,
-  '1': 56,
-  '2': 87
+// const products = {
+//   '0': 15,
+//   '1': 56,
+//   '2': 87
 
+// }
+// console.log(products[2])
+
+
+function showArrg(a, b, c) {
+  console.log(arguments);
+  console.log(arguments[0]);
+  console.log(arguments.length);
 }
-console.log(products[2])
+showArrg(10, 20, 30);
