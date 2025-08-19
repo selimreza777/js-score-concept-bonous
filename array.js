@@ -21,7 +21,7 @@
 
 
 function showArrg(a, b, c) {
-  console.log(arguments);
+  console.log(arguments); //array lik object
   console.log(arguments[0]);
   console.log(arguments.length);
 }
